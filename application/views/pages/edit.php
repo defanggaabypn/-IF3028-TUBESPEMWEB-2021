@@ -68,5 +68,16 @@
 		</section>
 	</fieldset>
 </body>
+<footer>
+            <section id="spons">
+                <div class="container">
+                    <div class="box">
+                    <p>Lebih Dekat dengan Kami!</p>
+                        <a href="http://itera.ac.id">
+                        <img src="https://www.itera.ac.id/wp-content/uploads/2016/02/logo-itera-oke.jpg" height="101px" width="84px;"></a>
+                </div>
+            </section>
+			<p style="text-align:center"> Copyright  @2020 </p>
 
+</footer>
 </html>
