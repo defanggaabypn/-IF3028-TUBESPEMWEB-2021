@@ -26,9 +26,10 @@
 
 		<section id="searchlaporan">
 			<div class="container">
-				<form action="search" method="POST">
-					<input name="keyword" type="text" placeholder="Cari" />
-					<button type="submit" class="button-1">Pencarian</button>
+				<form class="form" action="<?php echo base_url() . 'control/search' ?>" method="post">
+					<input type="text" name="keyword" placeholder="Masukkan Keyword">
+					<button type="submit">Cari</button>
+
 				</form>
 			</div>
 		</section>
@@ -83,13 +84,12 @@
 							"<hr>";
 					}
 					?>
-
-					<br>
+							<br>
 
 				</div>
 			</div>
 		</section>
 	</fieldset>
+	
 </body>
-
 </html>
